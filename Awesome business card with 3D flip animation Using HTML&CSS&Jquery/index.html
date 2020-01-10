@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title></title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" charset="UTF-8"></script>
+</head>
+<body>
+  <div class="business-card middle">
+    <div class="front">
+      <h2>Stan Shaw</h2>
+      <span>Web Designer</span>
+      <ul class="contact-info">
+        <li>
+          <i class="fas fa-mobile-alt"></i> +86 00000000
+        </li>
+        <li>
+          <i class="far fa-envelope"></i> 411626080@qq.com
+        </li>
+        <li>
+          <i class="fas fa-map-marker-alt"></i> Shenzhen,China
+        </li>
+      </ul>
+    </div>
+    <div class="back">
+      <span>StanChy</span>
+    </div>
+  </div>
+
+  <script>
+    $(".business-card").click(function(){
+      $(".business-card").toggleClass("business-card-active")
+    })
+  </script>
+</body>
+</html>
